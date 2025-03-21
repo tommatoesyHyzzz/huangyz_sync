@@ -8,13 +8,13 @@ version = "0.1.0"
 description = "文件同步工具包"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT License"}
+license = {text = "GNU GENERAL PUBLIC LICENSE Version 3"}
 authors = [
     {name = "huangyz", email = "example@example.com"}
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE Version 3",
     "Operating System :: OS Independent",
 ]
 dependencies = []
@@ -31,8 +31,8 @@ dev = [
 ]
 
 [project.urls]
-"HomePage" = "https://github.com/yourusername/huangyz_sync"
-"Bug Tracker" = "https://github.com/yourusername/huangyz_sync/issues"
+"HomePage" = "hhttps://github.com/tommatoesyHyzzz/huangyz_sync"
+"Bug Tracker" = "https://github.com/tommatoesyHyzzz/huangyz_sync/issues"
 
 [tool.setuptools]
 packages = ["huangyz_sync"]
