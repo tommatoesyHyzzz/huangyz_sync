@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Test_Sync",
+    "enabled": true,
+    "source_dir": "E://test/ignore_source",
+    "target_dir": "E://test/ignore_target",
+    "options": {
+      "delete_extra": true,
+      "compare_content": true
+    },
+    "ignore": {
+      "patterns": ["*.tmp", "*.bak", "temp/", "logs/*.log"]
+    }
+  }
+]

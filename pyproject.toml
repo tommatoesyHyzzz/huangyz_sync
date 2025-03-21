@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "huangyz_sync"
+version = "0.1.0"
+description = "文件同步工具包"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT License"}
+authors = [
+    {name = "huangyz", email = "example@example.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+watch = ["watchdog>=2.0.0"]
+ignore = ["pathspec>=0.9.0"]
+dev = [
+    "pytest>=6.0",
+    "black>=21.5b2",
+    "isort>=5.9.1",
+    "watchdog>=2.0.0",
+    "pathspec>=0.9.0"
+]
+
+[project.urls]
+"HomePage" = "https://github.com/yourusername/huangyz_sync"
+"Bug Tracker" = "https://github.com/yourusername/huangyz_sync/issues"
+
+[tool.setuptools]
+packages = ["huangyz_sync"]
+package-dir = {"" = "src"} 
