@@ -1,8 +1,8 @@
 # Huangyz-sync
 
-## 项目信息
+## 项目描述
 
-同步window11文件夹或者文件
+通过配置同步window11目录或者文件
 
 
 
@@ -21,20 +21,37 @@ pathspec>=0.9.0
 ## 项目结构
 
 ```
-file_ops/
-    __init__.py      # 包入口点，导出主要类
-    core.py          # 核心文件操作功能
-    ignore.py        # 忽略规则功能（类似.gitignore）
-    sync.py          # 文件同步功能
-    watch.py         # 文件监视功能
-    track.py         # 操作跟踪功能
-    config.py        # 配置管理功能
-    utils.py      	 # 工具函数
+huangyz_sync/
+├── src/
+│   ├── huangyz_sync/          # 主包
+│   │   ├── config/            # 配置文件目录
+│   │   ├── core/              # 核心功能模块
+│   │   ├── models/            # 数据模型模块
+│   │   ├── utils/             # 工具类模块
+│   │   ├── tools/             # 开发工具模块
+│   │   └── __init__.py
+│   ├── huangyz_sync_gui.py    # GUI应用入口
+│   └── main.py                # 命令行入口
+├── examples/                  # 示例代码
+├── README.md
+├── LICENSE
+├── .gitignore
+├── pyproject.toml            # 项目配置和依赖
+└── build.bat                 # 构建脚本
 ```
 
 
 
-## 配置信息
+##  功能特性
+
+```
+- ✅ 可通过配置文件配置信息和忽略规则
+```
+
+
+
+## 配置文件
+JSON格式
 
 ```
 [
